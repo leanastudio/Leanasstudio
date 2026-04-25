@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datenschutz – Leana's Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    .impressum-page {
+      min-height: 100vh;
+      padding: 120px 0 80px;
+      background: linear-gradient(135deg, #ede9fe 0%, #e0e7ff 40%, #dbeafe 100%);
+    }
+    .impressum-page .blob--1 { position: fixed; top: -120px; left: -100px; }
+    .impressum-page .blob--2 { position: fixed; top: 60px; right: -80px; }
+    .impressum__card {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 52px 56px;
+    }
+    .impressum__back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: var(--purple-dark);
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 36px;
+      transition: gap 0.2s;
+    }
+    .impressum__back:hover { gap: 12px; }
+    .impressum__title {
+      font-family: var(--font-serif);
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 40px;
+    }
+    .impressum__section { margin-bottom: 36px; }
+    .impressum__section h2 {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--purple-dark);
+      margin-bottom: 12px;
+    }
+    .impressum__section p {
+      color: var(--text-2);
+      font-size: 0.97rem;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+    .impressum__section a {
+      color: var(--purple-dark);
+      text-decoration: none;
+    }
+    .impressum__section a:hover { text-decoration: underline; }
+    .impressum__divider {
+      border: none;
+      border-top: 1px solid rgba(167,139,250,0.2);
+      margin: 32px 0;
+    }
+    .impressum__placeholder {
+      background: rgba(167,139,250,0.1);
+      border: 1.5px dashed rgba(167,139,250,0.4);
+      border-radius: 8px;
+      padding: 3px 10px;
+      color: var(--purple-dark);
+      font-size: 0.88rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Leana's Studio</a>
+    </div>
+  </nav>
+
+  <div class="impressum-page">
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+    <div class="container">
+      <div class="glass-card impressum__card">
+
+        <a href="index.html" class="impressum__back">← Zurück zur Startseite</a>
+
+        <h1 class="impressum__title">Datenschutzerklärung</h1>
+
+        <div class="impressum__section">
+          <h2>Verantwortliche Person</h2>
+          <p>
+            Anna Lemmerer<br />
+            <span class="impressum__placeholder">Adresse</span><br />
+            E-Mail: <a href="mailto:hello@leanas.studio">hello@leanas.studio</a>
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <div class="impressum__section">
+          <h2>Grundsätzliches</h2>
+          <p>
+            Der Schutz deiner persönlichen Daten ist mir wichtig. Ich verarbeite
+            deine Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen
+            (DSGVO, TKG 2003).
+          </p>
+          <p>
+            Mit dieser Datenschutzerklärung informiere ich dich über die wichtigsten
+            Aspekte der Datenverarbeitung im Rahmen dieser Website.
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <div class="impressum__section">
+          <h2>Kontaktformular</h2>
+          <p>
+            Wenn du das Kontaktformular auf dieser Website verwendest, werden die
+            eingegebenen Daten (Name, E-Mail-Adresse, Nachricht) zwecks Bearbeitung
+            der Anfrage und für eventuelle Anschlussfragen bei mir gespeichert.
+          </p>
+          <p>
+            Diese Daten gebe ich nicht ohne deine Einwilligung weiter. Die Daten
+            werden nach abgeschlossener Bearbeitung deiner Anfrage gelöscht, sofern
+            keine gesetzlichen Aufbewahrungspflichten bestehen.
+          </p>
+          <p>
+            Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw.
+            Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung).
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <div class="impressum__section">
+          <h2>Server-Logfiles</h2>
+          <p>
+            Der Hosting-Anbieter dieser Website erhebt und speichert automatisch
+            Informationen in Server-Logfiles, die dein Browser übermittelt. Das sind:
+            Browsertyp und -version, verwendetes Betriebssystem, Referrer-URL,
+            Hostname des zugreifenden Rechners, Uhrzeit der Serveranfrage sowie
+            IP-Adresse.
+          </p>
+          <p>
+            Diese Daten sind nicht bestimmten Personen zuordenbar und werden nicht
+            mit anderen Datenquellen zusammengeführt. Grundlage ist Art. 6 Abs. 1
+            lit. f DSGVO (berechtigtes Interesse am sicheren Betrieb der Website).
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <div class="impressum__section">
+          <h2>Cookies</h2>
+          <p>
+            Diese Website verwendet keine Tracking-Cookies oder Cookies von
+            Drittanbietern. Es werden ausschließlich technisch notwendige Cookies
+            eingesetzt, die für den Betrieb der Website erforderlich sind.
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <div class="impressum__section">
+          <h2>Google Fonts</h2>
+          <p>
+            Diese Website verwendet Google Fonts (Anbieter: Google LLC, USA).
+            Beim Laden der Seite werden Schriftarten von Google-Servern geladen,
+            wobei deine IP-Adresse an Google übertragen werden kann.
+          </p>
+          <p>
+            Weitere Informationen findest du in der
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung von Google</a>.
+          </p>
+          <!-- Tipp: Alternativ kannst du die Fonts lokal hosten, dann entfällt dieser Punkt. -->
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <div class="impressum__section">
+          <h2>Deine Rechte</h2>
+          <p>Dir stehen grundsätzlich folgende Rechte zu:</p>
+          <p>
+            <strong>Auskunft</strong> – Du kannst jederzeit Auskunft über die bei mir
+            gespeicherten Daten anfordern.<br />
+            <strong>Berichtigung</strong> – Unrichtige Daten können korrigiert werden.<br />
+            <strong>Löschung</strong> – Du kannst die Löschung deiner Daten verlangen.<br />
+            <strong>Einschränkung</strong> – Die Verarbeitung kann unter bestimmten
+            Voraussetzungen eingeschränkt werden.<br />
+            <strong>Widerspruch</strong> – Du kannst der Verarbeitung widersprechen.<br />
+            <strong>Datenübertragbarkeit</strong> – Du kannst deine Daten in einem
+            gängigen Format erhalten.
+          </p>
+          <p>
+            Zur Ausübung dieser Rechte wende dich an:
+            <a href="mailto:hello@leanas.studio">hello@leanas.studio</a>
+          </p>
+          <p>
+            Du hast außerdem das Recht, bei der österreichischen Datenschutzbehörde
+            (<a href="https://www.dsb.gv.at" target="_blank" rel="noopener">dsb.gv.at</a>) Beschwerde einzulegen.
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <div class="impressum__section">
+          <h2>Hosting</h2>
+          <p>
+            Diese Website wird gehostet bei:
+            <span class="impressum__placeholder">Hosting-Anbieter (z.B. Netlify, GitHub Pages, Strato…)</span>
+          </p>
+          <p>
+            Weitere Informationen zur Datenverarbeitung des Hosting-Anbieters findest
+            du in dessen Datenschutzerklärung.
+          </p>
+        </div>
+
+        <p style="font-size:0.82rem; color: var(--text-3); margin-top: 32px;">
+          Stand: April 2026
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

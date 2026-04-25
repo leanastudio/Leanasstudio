@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum – Leana's Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    .impressum-page {
+      min-height: 100vh;
+      padding: 120px 0 80px;
+      background: linear-gradient(135deg, #ede9fe 0%, #e0e7ff 40%, #dbeafe 100%);
+    }
+    .impressum-page .blob--1 { position: fixed; top: -120px; left: -100px; }
+    .impressum-page .blob--2 { position: fixed; top: 60px; right: -80px; }
+    .impressum__card {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 52px 56px;
+    }
+    .impressum__back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: var(--purple-dark);
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 36px;
+      transition: gap 0.2s;
+    }
+    .impressum__back:hover { gap: 12px; }
+    .impressum__title {
+      font-family: var(--font-serif);
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 40px;
+    }
+    .impressum__section { margin-bottom: 36px; }
+    .impressum__section h2 {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--purple-dark);
+      margin-bottom: 12px;
+    }
+    .impressum__section p,
+    .impressum__section address {
+      font-style: normal;
+      color: var(--text-2);
+      font-size: 0.97rem;
+      line-height: 1.8;
+    }
+    .impressum__section a {
+      color: var(--purple-dark);
+      text-decoration: none;
+    }
+    .impressum__section a:hover { text-decoration: underline; }
+    .impressum__divider {
+      border: none;
+      border-top: 1px solid rgba(167,139,250,0.2);
+      margin: 32px 0;
+    }
+    .impressum__placeholder {
+      background: rgba(167,139,250,0.1);
+      border: 1.5px dashed rgba(167,139,250,0.4);
+      border-radius: 8px;
+      padding: 3px 10px;
+      color: var(--purple-dark);
+      font-size: 0.88rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Leana's Studio</a>
+    </div>
+  </nav>
+
+  <div class="impressum-page">
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+    <div class="container">
+      <div class="glass-card impressum__card">
+
+        <a href="index.html" class="impressum__back">← Zurück zur Startseite</a>
+
+        <h1 class="impressum__title">Impressum</h1>
+
+        <!-- ANGABEN ZUM UNTERNEHMEN -->
+        <div class="impressum__section">
+          <h2>Angaben gemäß § 5 ECG</h2>
+          <address>
+            <strong>Anna Lemmerer</strong><br />
+            Leana's Studio<br />
+            <span class="impressum__placeholder">Straße und Hausnummer</span><br />
+            <span class="impressum__placeholder">PLZ Ort</span><br />
+            Österreich
+          </address>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <!-- KONTAKT -->
+        <div class="impressum__section">
+          <h2>Kontakt</h2>
+          <p>
+            E-Mail: <a href="mailto:hello@leanas.studio">hello@leanas.studio</a>
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <!-- UNTERNEHMENSFORM -->
+        <div class="impressum__section">
+          <h2>Unternehmensgegenstand</h2>
+          <p>
+            Webdesign, Grafikdesign und Printgestaltung für Privatpersonen und Unternehmen.
+          </p>
+        </div>
+
+        <!-- Falls Gewerbe: diese Section einkommentieren -->
+        <!--
+        <hr class="impressum__divider" />
+        <div class="impressum__section">
+          <h2>Gewerberechtliche Angaben</h2>
+          <p>
+            Gewerbeart: Gewerblicher Buchhalter / Werbeagentur / ...<br />
+            Gewerbebehörde: Bezirkshauptmannschaft <span class="impressum__placeholder">Ort</span><br />
+            Mitglied der Wirtschaftskammer Österreich (WKO)
+          </p>
+        </div>
+        -->
+
+        <hr class="impressum__divider" />
+
+        <!-- HAFTUNGSAUSSCHLUSS -->
+        <div class="impressum__section">
+          <h2>Haftungsausschluss</h2>
+          <p>
+            Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt.
+            Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann
+            jedoch keine Gewähr übernommen werden. Als Diensteanbieter bin ich gemäß
+            § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen
+            Gesetzen verantwortlich.
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <!-- URHEBERRECHT -->
+        <div class="impressum__section">
+          <h2>Urheberrecht</h2>
+          <p>
+            Die durch die Seitenbetreiberin erstellten Inhalte und Werke auf dieser
+            Website unterliegen dem österreichischen Urheberrecht. Die Vervielfältigung,
+            Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+            des Urheberrechts bedürfen der schriftlichen Zustimmung der jeweiligen
+            Autorin.
+          </p>
+        </div>
+
+        <hr class="impressum__divider" />
+
+        <!-- DATENSCHUTZ HINWEIS -->
+        <div class="impressum__section">
+          <h2>Datenschutz</h2>
+          <p>
+            Informationen zur Verarbeitung personenbezogener Daten findest du in der
+            <a href="datenschutz.html">Datenschutzerklärung</a>.
+          </p>
+        </div>
+
+        <p style="font-size:0.82rem; color: var(--text-3); margin-top: 32px;">
+          Stand: April 2026
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
