@@ -15,20 +15,27 @@
     <div class="nav__inner">
       <a href="#" class="nav__logo">Leana's Studio</a>
       <ul class="nav__links">
-        <li><a href="#angebote">Angebote</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#ueber">Über mich</a></li>
-        <li><a href="#kontakt" class="nav__cta">Kontakt</a></li>
+        <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+        <li><a href="#angebote" data-i18n="nav.services">Angebote</a></li>
+        <li><a href="#ueber" data-i18n="nav.about">Über mich</a></li>
+        <li><a href="#kontakt" class="nav__cta" data-i18n="nav.contact">Kontakt</a></li>
       </ul>
-      <button class="nav__burger" id="burger" aria-label="Menü">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="nav__right">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="de">DE</button>
+          <span>|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="nav__burger" id="burger" aria-label="Menü">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
     <div class="nav__mobile" id="mobileMenu">
-      <a href="#angebote">Angebote</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#ueber">Über mich</a>
-      <a href="#kontakt">Kontakt</a>
+      <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+      <a href="#angebote" data-i18n="nav.services">Angebote</a>
+      <a href="#ueber" data-i18n="nav.about">Über mich</a>
+      <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
     </div>
   </nav>
 
@@ -41,87 +48,19 @@
     </div>
     <div class="hero__content">
       <div class="glass-card hero__card reveal">
-        <span class="hero__tag">Dein Auftrag · Meine Handschrift</span>
-        <h1 class="hero__title">
-          Design, das<br />
-          <em>wirklich</em> zu dir passt.
+        <span class="hero__tag" data-i18n="hero.tag">Dein Auftrag · Meine Handschrift</span>
+        <h1 class="hero__title" data-i18n="hero.title">
+          Design, das<br /><em>wirklich</em> zu dir passt.
         </h1>
-        <p class="hero__sub">
+        <p class="hero__sub" data-i18n="hero.sub">
           Ich gestalte Websites und Poster, die nicht nur schön aussehen –
           sondern dich und dein Business perfekt repräsentieren.
         </p>
         <div class="hero__actions">
-          <a href="#angebote" class="btn btn--primary">Meine Angebote</a>
-          <a href="#portfolio" class="btn btn--ghost">Arbeiten ansehen</a>
+          <a href="#angebote" class="btn btn--primary" data-i18n="hero.btn1">Meine Angebote</a>
+          <a href="#portfolio" class="btn btn--ghost" data-i18n="hero.btn2">Arbeiten ansehen</a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ANGEBOTE -->
-  <section class="section angebote" id="angebote">
-    <div class="container">
-      <div class="section__header reveal">
-        <span class="section__tag">Was ich anbiete</span>
-        <h2 class="section__title">Meine Leistungen</h2>
-        <p class="section__sub">Individuelle Websites – von clean & klassisch bis interaktiv & aufwendig. Außerdem: Poster & Print.</p>
-      </div>
-
-      <div class="angebote__grid">
-
-        <div class="glass-card angebote__card reveal">
-          <div class="angebote__price">ab 1.000 €</div>
-          <h3>Basic Website</h3>
-          <p>Ideal für kleine Unternehmen oder den ersten Auftritt im Netz.</p>
-          <ul class="angebote__list">
-            <li>Individuelles Design (kein Template)</li>
-            <li>1–5 Seiten</li>
-            <li>Mobile-optimiert</li>
-            <li>Kontaktformular & SEO-Grundoptimierung</li>
-          </ul>
-          <a href="#kontakt" class="btn btn--outline">Anfrage stellen</a>
-        </div>
-
-        <div class="glass-card angebote__card angebote__card--featured reveal">
-          <div class="angebote__badge">Beliebt</div>
-          <div class="angebote__price">ab 2.000 €</div>
-          <h3>Individuelle Website</h3>
-          <p>Für Marken, die herausstechen wollen – mit Persönlichkeit und Wirkung.</p>
-          <ul class="angebote__list">
-            <li>Komplexeres Design & Struktur</li>
-            <li>Animationen & Interaktionen</li>
-            <li>Mehr Seiten & individuelle Features</li>
-            <li>Performance-Optimierung</li>
-          </ul>
-          <a href="#kontakt" class="btn btn--primary">Anfrage stellen</a>
-        </div>
-
-        <div class="glass-card angebote__card reveal">
-          <div class="angebote__price">ab 4.000 €</div>
-          <h3>Premium / Custom</h3>
-          <p>Für maximale Aufmerksamkeit – einzigartige Erlebnisse, die im Gedächtnis bleiben.</p>
-          <ul class="angebote__list">
-            <li>3D-Elemente (z. B. Three.js)</li>
-            <li>Maßgeschneiderte Web-Apps</li>
-            <li>Logins & API-Anbindungen</li>
-            <li>Individuelle Lösungen nach Wunsch</li>
-          </ul>
-          <a href="#kontakt" class="btn btn--outline">Anfrage stellen</a>
-        </div>
-
-      </div>
-
-      <div class="angebote__extra reveal">
-        <div class="glass-card angebote__extra-card">
-          <div class="angebote__extra-icon">✦</div>
-          <div>
-            <strong>Poster & Print</strong>
-            <p>Druckfertige Poster, Flyer und Grafiken – individuell gestaltet, schnell geliefert. Preis nach Absprache.</p>
-          </div>
-          <a href="#kontakt" class="btn btn--outline">Anfrage stellen</a>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -129,13 +68,13 @@
   <section class="section portfolio" id="portfolio">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__tag">Meine Arbeiten</span>
+        <span class="section__tag" data-i18n="portfolio.tag">Meine Arbeiten</span>
         <h2 class="section__title">Portfolio</h2>
-        <p class="section__sub">Jedes Projekt ist einzigartig – genauso wie die Menschen dahinter.</p>
+        <p class="section__sub" data-i18n="portfolio.sub">Jedes Projekt ist einzigartig – genauso wie die Menschen dahinter.</p>
       </div>
 
       <div class="portfolio__filter reveal">
-        <button class="filter__btn active" data-filter="all">Alle</button>
+        <button class="filter__btn active" data-filter="all" data-i18n="portfolio.all">Alle</button>
         <button class="filter__btn" data-filter="web">Websites</button>
         <button class="filter__btn" data-filter="print">Print</button>
       </div>
@@ -145,7 +84,7 @@
         <a class="glass-card portfolio__card reveal" data-category="web" href="https://leanastudio.github.io/Gelateria-Cielo/" target="_blank" rel="noopener">
           <div class="portfolio__preview" style="background-image: url('images/Websites/Gelateria Cielo_Homepage Screenshot.png')">
             <div class="portfolio__overlay">
-              <span>Website ansehen ↗</span>
+              <span data-i18n="portfolio.view">Website ansehen ↗</span>
             </div>
           </div>
           <div class="portfolio__info">
@@ -157,7 +96,7 @@
         <a class="glass-card portfolio__card reveal" data-category="web" href="https://leanastudio.github.io/ECLAT/" target="_blank" rel="noopener">
           <div class="portfolio__preview" style="background-image: url('images/Websites/ECLAT_Homepage Screenshot.png')">
             <div class="portfolio__overlay">
-              <span>Website ansehen ↗</span>
+              <span data-i18n="portfolio.view">Website ansehen ↗</span>
             </div>
           </div>
           <div class="portfolio__info">
@@ -169,7 +108,7 @@
         <a class="glass-card portfolio__card reveal" data-category="web" href="https://leanastudio.github.io/Ink-Bone/" target="_blank" rel="noopener">
           <div class="portfolio__preview" style="background-image: url('images/Websites/INK&BONE_Homepage Screenshot.png')">
             <div class="portfolio__overlay">
-              <span>Website ansehen ↗</span>
+              <span data-i18n="portfolio.view">Website ansehen ↗</span>
             </div>
           </div>
           <div class="portfolio__info">
@@ -181,7 +120,7 @@
         <a class="glass-card portfolio__card reveal" data-category="web" href="https://leanastudio.github.io/Airdidas/" target="_blank" rel="noopener">
           <div class="portfolio__preview" style="background-image: url('images/Websites/Airdidas_Homepage Screenshot.png')">
             <div class="portfolio__overlay">
-              <span>Website ansehen ↗</span>
+              <span data-i18n="portfolio.view">Website ansehen ↗</span>
             </div>
           </div>
           <div class="portfolio__info">
@@ -192,33 +131,27 @@
 
         <div class="glass-card portfolio__card reveal" data-category="print">
           <div class="portfolio__preview" style="background-image: url('images/Poster/Frühlingsfest.png')">
-            <div class="portfolio__overlay">
-              <span>Print</span>
-            </div>
+            <div class="portfolio__overlay"><span>Print</span></div>
           </div>
           <div class="portfolio__info">
-            <h4>Frühlingsfest</h4>
+            <h4 data-i18n="portfolio.fruehling">Frühlingsfest</h4>
             <span class="portfolio__tag">Poster</span>
           </div>
         </div>
 
         <div class="glass-card portfolio__card reveal" data-category="print">
           <div class="portfolio__preview" style="background-image: url('images/Poster/Sommerfest.png')">
-            <div class="portfolio__overlay">
-              <span>Print</span>
-            </div>
+            <div class="portfolio__overlay"><span>Print</span></div>
           </div>
           <div class="portfolio__info">
-            <h4>Sommerfest</h4>
+            <h4 data-i18n="portfolio.sommer">Sommerfest</h4>
             <span class="portfolio__tag">Poster</span>
           </div>
         </div>
 
         <div class="glass-card portfolio__card reveal" data-category="print">
           <div class="portfolio__preview" style="background-image: url('images/Poster/T E N N I S.png')">
-            <div class="portfolio__overlay">
-              <span>Print</span>
-            </div>
+            <div class="portfolio__overlay"><span>Print</span></div>
           </div>
           <div class="portfolio__info">
             <h4>T E N N I S</h4>
@@ -227,6 +160,73 @@
         </div>
 
       </div>
+    </div>
+  </section>
+
+  <!-- ANGEBOTE -->
+  <section class="section angebote" id="angebote">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag" data-i18n="services.tag">Was ich anbiete</span>
+        <h2 class="section__title" data-i18n="services.title">Meine Leistungen</h2>
+        <p class="section__sub" data-i18n="services.sub">Individuelle Websites – von clean & klassisch bis interaktiv & aufwendig. Außerdem: Poster & Print.</p>
+      </div>
+
+      <div class="angebote__grid">
+
+        <div class="glass-card angebote__card reveal">
+          <div class="angebote__price" data-i18n="services.price1">ab 1.000 €</div>
+          <h3 data-i18n="services.card1.title">Basic Website</h3>
+          <p data-i18n="services.card1.desc">Ideal für kleine Unternehmen oder den ersten Auftritt im Netz.</p>
+          <ul class="angebote__list">
+            <li data-i18n="services.card1.li1">Individuelles Design (kein Template)</li>
+            <li data-i18n="services.card1.li2">1–5 Seiten</li>
+            <li data-i18n="services.card1.li3">Mobile-optimiert</li>
+            <li data-i18n="services.card1.li4">Kontaktformular & SEO-Grundoptimierung</li>
+          </ul>
+          <a href="#kontakt" class="btn btn--outline" data-i18n="services.cta">Anfrage stellen</a>
+        </div>
+
+        <div class="glass-card angebote__card angebote__card--featured reveal">
+          <div class="angebote__badge" data-i18n="services.badge">Beliebt</div>
+          <div class="angebote__price" data-i18n="services.price2">ab 2.000 €</div>
+          <h3 data-i18n="services.card2.title">Individuelle Website</h3>
+          <p data-i18n="services.card2.desc">Für Marken, die herausstechen wollen – mit Persönlichkeit und Wirkung.</p>
+          <ul class="angebote__list">
+            <li data-i18n="services.card2.li1">Komplexeres Design & Struktur</li>
+            <li data-i18n="services.card2.li2">Animationen & Interaktionen</li>
+            <li data-i18n="services.card2.li3">Mehr Seiten & individuelle Features</li>
+            <li data-i18n="services.card2.li4">Performance-Optimierung</li>
+          </ul>
+          <a href="#kontakt" class="btn btn--primary" data-i18n="services.cta">Anfrage stellen</a>
+        </div>
+
+        <div class="glass-card angebote__card reveal">
+          <div class="angebote__price" data-i18n="services.price3">ab 4.000 €</div>
+          <h3 data-i18n="services.card3.title">Premium / Custom</h3>
+          <p data-i18n="services.card3.desc">Für maximale Aufmerksamkeit – einzigartige Erlebnisse, die im Gedächtnis bleiben.</p>
+          <ul class="angebote__list">
+            <li data-i18n="services.card3.li1">3D-Elemente (z. B. Three.js)</li>
+            <li data-i18n="services.card3.li2">Maßgeschneiderte Web-Apps</li>
+            <li data-i18n="services.card3.li3">Logins & API-Anbindungen</li>
+            <li data-i18n="services.card3.li4">Individuelle Lösungen nach Wunsch</li>
+          </ul>
+          <a href="#kontakt" class="btn btn--outline" data-i18n="services.cta">Anfrage stellen</a>
+        </div>
+
+      </div>
+
+      <div class="angebote__extra reveal">
+        <div class="glass-card angebote__extra-card">
+          <div class="angebote__extra-icon">✦</div>
+          <div>
+            <strong data-i18n="services.extra.title">Poster & Print</strong>
+            <p data-i18n="services.extra.desc">Druckfertige Poster, Flyer und Grafiken – individuell gestaltet, schnell geliefert. Preis nach Absprache.</p>
+          </div>
+          <a href="#kontakt" class="btn btn--outline" data-i18n="services.cta">Anfrage stellen</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -244,14 +244,14 @@
         </div>
 
         <div class="ueber__text reveal">
-          <span class="section__tag">Über mich</span>
-          <h2 class="section__title">Hallo, ich bin Anna.</h2>
-          <p>
+          <span class="section__tag" data-i18n="about.tag">Über mich</span>
+          <h2 class="section__title" data-i18n="about.title">Hallo, ich bin Anna.</h2>
+          <p data-i18n="about.p1">
             Ich bin eine leidenschaftliche Designerin mit einem Gespür für Ästhetik
             und einem Faible für Details. Für mich ist Design mehr als Optik –
             es ist Kommunikation.
           </p>
-          <p>
+          <p data-i18n="about.p2">
             Jedes Projekt bekommt meine volle Aufmerksamkeit. Ich höre zu,
             verstehe was du brauchst – und übersetze das in Design, das wirklich
             zu dir passt.
@@ -260,10 +260,10 @@
             <div class="skill-pill">Web Design</div>
             <div class="skill-pill">Print Design</div>
             <div class="skill-pill">Branding</div>
-            <div class="skill-pill">Typografie</div>
-            <div class="skill-pill">Layoutgestaltung</div>
+            <div class="skill-pill" data-i18n="about.skill4">Typografie</div>
+            <div class="skill-pill" data-i18n="about.skill5">Layoutgestaltung</div>
           </div>
-          <a href="#kontakt" class="btn btn--primary">Zusammenarbeiten</a>
+          <a href="#kontakt" class="btn btn--primary" data-i18n="about.btn">Zusammenarbeiten</a>
         </div>
       </div>
     </div>
@@ -273,9 +273,9 @@
   <section class="section kontakt" id="kontakt">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__tag">Schreib mir</span>
-        <h2 class="section__title">Lass uns reden.</h2>
-        <p class="section__sub">Du hast ein Projekt im Kopf? Ich bin gespannt. Schreib mir einfach – kein Stress, kein Druck.</p>
+        <span class="section__tag" data-i18n="contact.tag">Schreib mir</span>
+        <h2 class="section__title" data-i18n="contact.title">Lass uns reden.</h2>
+        <p class="section__sub" data-i18n="contact.sub">Du hast ein Projekt im Kopf? Ich bin gespannt. Schreib mir einfach – kein Stress, kein Druck.</p>
       </div>
 
       <div class="kontakt__grid">
@@ -283,63 +283,63 @@
           <form class="kontakt__form" id="kontaktForm" action="https://formspree.io/f/mgorqawa" method="POST">
             <div class="form__row">
               <div class="form__group">
-                <label for="name">Dein Name</label>
-                <input type="text" id="name" name="name" placeholder="Max Mustermann" required />
+                <label for="name" data-i18n="contact.name">Dein Name</label>
+                <input type="text" id="name" name="name" data-i18n-placeholder="contact.namePh" placeholder="Max Mustermann" required />
               </div>
               <div class="form__group">
                 <label for="email">E-Mail</label>
-                <input type="email" id="email" name="email" placeholder="max@beispiel.de" required />
+                <input type="email" id="email" name="email" data-i18n-placeholder="contact.emailPh" placeholder="max@beispiel.de" required />
               </div>
             </div>
             <div class="form__group">
-              <label for="service">Was brauchst du?</label>
+              <label for="service" data-i18n="contact.service">Was brauchst du?</label>
               <select id="service" name="service">
-                <option value="">Bitte wählen...</option>
+                <option value="" data-i18n="contact.select">Bitte wählen...</option>
                 <option value="website">Website</option>
-                <option value="poster">Poster / Print</option>
-                <option value="hosting">Website Hosting</option>
-                <option value="kombi">Kombi-Paket</option>
-                <option value="sonstiges">Sonstiges</option>
+                <option value="poster" data-i18n="contact.opt.poster">Poster / Print</option>
+                <option value="hosting" data-i18n="contact.opt.hosting">Website Hosting</option>
+                <option value="kombi" data-i18n="contact.opt.kombi">Kombi-Paket</option>
+                <option value="sonstiges" data-i18n="contact.opt.other">Sonstiges</option>
               </select>
             </div>
             <div class="form__group">
-              <label for="nachricht">Deine Nachricht</label>
-              <textarea id="nachricht" name="nachricht" rows="5" placeholder="Erzähl mir von deinem Projekt..." required></textarea>
+              <label for="nachricht" data-i18n="contact.message">Deine Nachricht</label>
+              <textarea id="nachricht" name="nachricht" rows="5" data-i18n-placeholder="contact.messagePh" placeholder="Erzähl mir von deinem Projekt..." required></textarea>
             </div>
-            <button type="submit" class="btn btn--primary btn--full">Nachricht senden ✦</button>
+            <button type="submit" class="btn btn--primary btn--full" data-i18n="contact.send">Nachricht senden ✦</button>
           </form>
         </div>
 
         <div class="kontakt__info reveal">
           <div class="glass-card kontakt__info-card">
-            <h3>So läuft's ab</h3>
+            <h3 data-i18n="contact.how">So läuft's ab</h3>
             <ol class="kontakt__steps">
               <li>
                 <span class="step-num">01</span>
                 <div>
-                  <strong>Du schreibst mir</strong>
-                  <p>Kurze Beschreibung deines Projekts – fertig.</p>
+                  <strong data-i18n="contact.step1.title">Du schreibst mir</strong>
+                  <p data-i18n="contact.step1.desc">Kurze Beschreibung deines Projekts – fertig.</p>
                 </div>
               </li>
               <li>
                 <span class="step-num">02</span>
                 <div>
-                  <strong>Wir klären Details</strong>
-                  <p>Ein kurzes Gespräch, damit ich alles verstehe.</p>
+                  <strong data-i18n="contact.step2.title">Wir klären Details</strong>
+                  <p data-i18n="contact.step2.desc">Ein kurzes Gespräch, damit ich alles verstehe.</p>
                 </div>
               </li>
               <li>
                 <span class="step-num">03</span>
                 <div>
-                  <strong>Ich mache mich ans Werk</strong>
-                  <p>Du lehnst dich zurück, ich liefere Ergebnisse.</p>
+                  <strong data-i18n="contact.step3.title">Ich mache mich ans Werk</strong>
+                  <p data-i18n="contact.step3.desc">Du lehnst dich zurück, ich liefere Ergebnisse.</p>
                 </div>
               </li>
               <li>
                 <span class="step-num">04</span>
                 <div>
-                  <strong>Finales Design ✓</strong>
-                  <p>Gemeinsam feilen wir, bis es perfekt ist.</p>
+                  <strong data-i18n="contact.step4.title">Finales Design ✓</strong>
+                  <p data-i18n="contact.step4.desc">Gemeinsam feilen wir, bis es perfekt ist.</p>
                 </div>
               </li>
             </ol>
@@ -355,21 +355,21 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <span class="nav__logo">Leana's Studio</span>
-        <p>Dein Auftrag · Meine Handschrift</p>
+        <p data-i18n="footer.tagline">Dein Auftrag · Meine Handschrift</p>
       </div>
       <div class="footer__links">
-        <a href="#angebote">Angebote</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#ueber">Über mich</a>
-        <a href="#kontakt">Kontakt</a>
+        <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+        <a href="#angebote" data-i18n="nav.services">Angebote</a>
+        <a href="#ueber" data-i18n="nav.about">Über mich</a>
+        <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
       </div>
       <div class="footer__legal">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html" data-i18n="footer.impressum">Impressum</a>
+        <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
       </div>
     </div>
     <div class="footer__bottom">
-      <p>© 2026 Leana's Studio · Mit ♥ gestaltet</p>
+      <p data-i18n="footer.copy">© 2026 Leana's Studio · Mit ♥ gestaltet</p>
     </div>
   </footer>
 

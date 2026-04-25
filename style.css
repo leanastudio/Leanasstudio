@@ -252,6 +252,39 @@ body {
 }
 .nav__cta:hover { opacity: 0.9; }
 
+.nav__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-3);
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: var(--transition);
+}
+.lang-btn:hover { color: var(--text); }
+.lang-btn.active {
+  color: var(--purple-dark);
+  background: rgba(167,139,250,0.12);
+}
+
 .nav__burger {
   display: none;
   flex-direction: column;
