@@ -7,7 +7,7 @@ const translations = {
     'nav.contact': 'Kontakt',
     'hero.tag': 'Dein Auftritt · Meine Handschrift',
     'hero.title': 'Design, das<br /><em>wirklich</em> zu dir passt.',
-    'hero.sub': 'Moderne Websites für Unternehmen und Selbstständige – individuell entwickelt, nicht mit Baukasten.',
+    'hero.sub': 'Moderne Websites, die nicht nur gut aussehen, sondern dich und dein Business perfekt repräsentieren.',
     'hero.btn1': 'Projekt starten',
     'hero.btn2': 'Portfolio ansehen',
     'hero.bullet1': '✔ Individuelle Entwicklung – kein Baukasten',
