@@ -342,9 +342,13 @@ body {
   position: relative;
   z-index: 2;
   width: 100%;
-  max-width: 820px;
+  max-width: 700px;
   padding: 24px;
   margin-top: 60px;
+}
+
+@media (min-width: 1440px) {
+  .hero__content { max-width: 820px; }
 }
 
 .hero__card {
