@@ -46,7 +46,7 @@ const translations = {
     'services.card3.li4': 'Individuelle Lösungen nach Wunsch',
     'services.cta': 'Anfrage stellen',
     'services.extra.title': 'Poster & Print',
-    'services.extra.desc': 'Druckfertige Poster, Flyer und Grafiken – individuell gestaltet, schnell geliefert. Preis nach Absprache.',
+    'services.extra.desc': 'Druckfertige Poster, Flyer und Grafiken – individuell gestaltet, druckfertig. Preis nach Absprache.',
     'about.tag': 'Über mich',
     'about.title': 'Hallo, ich bin Anna.',
     'cta.tag': 'Bereit?',
