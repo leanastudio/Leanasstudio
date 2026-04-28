@@ -10,7 +10,7 @@ const translations = {
     'hero.sub': 'Moderne Websites, die nicht nur gut aussehen, sondern dich und dein Business perfekt repräsentieren.',
     'hero.btn1': 'Projekt starten',
     'hero.btn2': 'Portfolio ansehen',
-    'hero.bullet1': '✔ Individuelle Entwicklung – kein Baukasten',
+    'hero.bullet1': '✔ Keine Templates – jede Website ist individuell',
     'hero.bullet2': '✔ Modernes Design & saubere Umsetzung',
     'hero.bullet3': '✔ Optimiert für Mobile & Performance',
     'portfolio.tag': 'Meine Arbeiten',
