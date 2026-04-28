@@ -50,7 +50,7 @@ const translations = {
     'about.tag': 'Über mich',
     'about.title': 'Hallo, ich bin Anna.',
     'cta.tag': 'Bereit?',
-    'cta.title': 'Bereit für deine Website?',
+    'cta.title': 'Bereit für eine Website, die wirklich zu dir passt?',
     'cta.sub': 'Lass uns gemeinsam etwas schaffen, das wirklich zu dir passt.',
     'cta.btn': 'Projekt starten',
     'about.p1': 'Ich entwickle moderne Websites mit Fokus auf Design und Nutzererfahrung. Von der Idee bis zum fertigen Code begleite ich Projekte ganzheitlich und lege großen Wert auf klare Gestaltung und Details.',
