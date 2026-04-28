@@ -342,19 +342,14 @@ body {
   position: relative;
   z-index: 2;
   width: 100%;
-  max-width: 660px;
+  max-width: 580px;
   padding: 24px;
   margin-top: 60px;
 }
 
 .hero__card {
-  padding: 56px 52px;
+  padding: 52px 56px;
   text-align: center;
-  aspect-ratio: 1 / 1.05;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero__tag {
